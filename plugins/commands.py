@@ -57,7 +57,7 @@ async def delete_after_delay(message: Message, delay):
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
   data = message.command[1]
-    if data.split("-", 1)[0] == "verify": # set if or elif it depend on your code
+    if data.split("-", 1)[0] == "verify"
         userid = data.split("-", 2)[1]
         token = data.split("-", 3)[2]
         if str(message.from_user.id) != str(userid):
