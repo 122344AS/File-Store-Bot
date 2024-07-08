@@ -28,7 +28,12 @@ def is_enabled(value, default):
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
-      
+
+API = environ.get("API", "zipshort.net") # shortlink api
+URL = environ.get("URL", "f037e10475dd1a9e4a9f163787a6bbc3c8c708ab") # shortlink domain without https://
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/How_to_download_movies_in_group/10") # how to open link 
+VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
+
 # Owner Information
 API_ID = int(environ.get("API_ID", "26513278"))
 API_HASH = environ.get("API_HASH", "7a3df75c8ed3520737e343e9f049166b")
