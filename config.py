@@ -29,6 +29,7 @@ def is_enabled(value, default):
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
+# shortner verify information
 API = environ.get("API", "zipshort.net") # shortlink api
 URL = environ.get("URL", "f037e10475dd1a9e4a9f163787a6bbc3c8c708ab") # shortlink domain without https://
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/How_to_download_movies_in_group/10") # how to open link 
